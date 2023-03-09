@@ -13,12 +13,12 @@ public class Soda {
         this.addition = addition;
     }
 
-    public String GetMyDrinkString(){
+    public String GetMyDrinkString() {
         String result;
-        if (addition.isEmpty()){
-            return  result = "Soda water";
-        } else {
-            return  result = "Soda water and  "+ addition;
+        if (addition.isEmpty()) {
+            return result = "Soda water";
         }
+        return result = "Soda water and  " + addition;
+
     }
 }
